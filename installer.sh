@@ -8,7 +8,7 @@ echo "==========================================================================
 echo "         install picon-arab    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emil237/picon-arab/main/picon1.tar.gz"
+wget -q  "https://raw.githubusercontent.com/emil237/picon-arab/raw/main/picon1.tar.gz"
 wait
 tar -xzf picon1.tar.gz  -C /
 wait
@@ -19,7 +19,7 @@ echo "==========================================================================
 echo "         install picon-arab    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emil237/picon-arab/main/picon2.tar.gz"
+wget -q  "https://raw.githubusercontent.com/emil237/picon-arab/raw/main/picon2.tar.gz"
 wait
 tar -xzf picon2.tar.gz  -C /
 wait
@@ -43,6 +43,13 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
+
+
+
+
+
+
 
 
 
